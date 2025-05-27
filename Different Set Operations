@@ -1,0 +1,14 @@
+A = {1, 2, 3, 4}
+B = {4, 5, 6, 7, 8}
+
+res1 = A.union(B)
+print("Union of a and b is", res1)
+
+res2 = A.intersection(B)
+print("Intersection of a and b is", res2)
+
+res3 = A.difference(B)
+print("difference of a and b is", res3)
+
+res4 = A.symmetric_difference(B)
+print("symmetric_difference of a and b is", res4)
